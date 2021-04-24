@@ -1,0 +1,49 @@
+$avasize: 5rem;
+.messageWrapper {
+  width: 60vh;
+  background-color: beige;
+  display: flex;
+
+  .avatarblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 30%;
+
+    & div {
+
+      border-radius: 50%;
+      height: $avasize;
+      width: $avasize;
+      border: 1px solid;
+      background-size: cover;
+    }
+  }
+
+  .textWrapper {
+    background-color: beige;
+    width: 70%;
+
+    .message {
+      border: 1px solid;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 10px;
+
+      span {
+        float: right;
+        opacity: 0.5;
+        color: #034c3a;
+      }
+
+      .text {
+        color: blue;
+
+      }
+    }
+
+  }
+
+}
