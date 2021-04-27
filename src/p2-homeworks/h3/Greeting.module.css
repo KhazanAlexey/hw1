@@ -1,7 +1,24 @@
-.someClass {
-
+.inputclass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-
+.inputclass span{
+    font-weight: 100;
+    font-size: small;
+    color: red;
+}
 .error {
     border: 1px solid red;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.wrapper button{
+    margin-left: 10px;
+}
+.wrapper span{
+margin-left: 10px;
 }
