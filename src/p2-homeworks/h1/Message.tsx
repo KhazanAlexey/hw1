@@ -22,6 +22,7 @@ function Message(props: propsType) {
 
                 </div>
             </div>
+            <div className={style.angle}></div>
             <div className={style.textWrapper}>
                 <div className={style.message}>
                     <h5>{props.name}</h5>
