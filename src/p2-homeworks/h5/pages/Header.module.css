@@ -1,0 +1,40 @@
+.mySidenav a {
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.mySidenav:hover {
+    left: 0;
+}
+
+.prejunior {
+    background-color: #4CAF50;
+}
+
+.junior {
+    background-color: #4CAF50;
+}
+
+.mySidenav {
+    display: flex;
+    position: absolute;
+    left: -281px;
+    top: 50px;
+    transition: 1s;
+}
+
+.header {
+    height: 75px;
+}
+
+.juniorplus {
+    background-color: #4CAF50;
+
+
+}
