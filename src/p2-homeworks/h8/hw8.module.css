@@ -1,0 +1,12 @@
+.controls{
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    margin-left: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+margin-left: 10px;
+}

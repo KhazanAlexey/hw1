@@ -1,0 +1,8 @@
+.select{
+width: 100px;
+    cursor: pointer;
+}
+.option:checked{
+    background:#4CAF50 ;
+
+}

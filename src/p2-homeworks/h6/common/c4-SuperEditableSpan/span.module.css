@@ -1,0 +1,18 @@
+
+
+.stylespan{
+    color: blue;
+    font-size: 1.5em;
+    display: inline-block;
+}
+.icon{
+    background-image: url(/src/p2-homeworks/h6/iconmonstr-pencil-8.svg);
+    width: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.spanwrapper{
+    display: flex;
+}
