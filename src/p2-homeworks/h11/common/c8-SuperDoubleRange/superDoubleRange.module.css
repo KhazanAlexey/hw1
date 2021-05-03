@@ -1,0 +1,7 @@
+.thumbLeft::-webkit-slider-thumb {
+    z-index: 3;
+}
+
+.thumbRight::-webkit-slider-thumb {
+    z-index: 4;
+}
