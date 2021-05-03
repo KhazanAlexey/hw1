@@ -24,7 +24,7 @@ const Greeting: React.FC<GreetingPropsType> = (
             {/*    <span>{error}</span></div>*/}
 <SuperButton onClick={addUser}>Add</SuperButton>
             {/*<button onClick={addUser}>add</button>*/}
-            <span>{totalUsers}</span>
+            <span className={s.count}>{totalUsers}</span>
         </div>
     )
 }

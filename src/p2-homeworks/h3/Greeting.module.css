@@ -20,8 +20,8 @@
 .wrapper button{
     margin-left: 10px;
 }
-.wrapper span{
-    color: red;
+.count{
+    color: gold;
     position: absolute;
     left: 441px;
     font-size: larger;
