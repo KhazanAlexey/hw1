@@ -22,12 +22,8 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
         // сделайте так чтоб работал onChange и onChangeChecked
         onChange && onChange(e)
-        if (onChangeChecked && restProps.checked) {
-            onChangeChecked(true)
-
-        } else if (onChangeChecked && !restProps.checked)
-            onChangeChecked(false)
-    }
+        onChangeChecked &&onChangeChecked(e.currentTarget.checked)
+        }
 
     const finalInputClassName = `${s.checkbox} ${className ? className : ''}`
 
@@ -37,7 +33,6 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
                 type={'checkbox'}
                 onChange={onChangeCallback}
                 className={finalInputClassName}
-
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (checked например там внутри)
             />
             {children && <span className={s.spanClassName}>{children}</span>}
